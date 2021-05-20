@@ -1,0 +1,5 @@
+import math
+s,r1=map(float,input().split())
+a=math.sqrt(r1*r1 - s / math.pi)
+a = "{:.2f}".format(a)
+print(a)
