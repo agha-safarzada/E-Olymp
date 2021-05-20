@@ -1,0 +1,6 @@
+x, y, z = [float(x) for x in input().split()]
+c=x+y+z
+h=x*y*z
+c2=round(c,4) 
+h2=round(h,4) 
+print(c2,h2)
