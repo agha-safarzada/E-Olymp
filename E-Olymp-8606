@@ -1,0 +1,8 @@
+x, y, z, f= [float(x) for x in input().split()]
+c2=x+y
+c3=x+y+z
+c4=x+y+z+f
+c2=round(c2,4) 
+c3=round(c3,4) 
+c4=round(c4,4) 
+print("{}\n{}\n{}\n".format(c2,c3,c4))
